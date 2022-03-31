@@ -1,0 +1,15 @@
+{
+  "name": "ecom-project-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "netlify": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^9.15.0"
+  }
+}
