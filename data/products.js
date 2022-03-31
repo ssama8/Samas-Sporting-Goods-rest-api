@@ -11,6 +11,9 @@ const items = [
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
 		category: "Arm Sleeve",
 		shipping: true,
+		reviews: 12,
+		stars: 4.2,
+		stock: 17,
 	},
 	{
 		id: "recEHmzvupvT8ZONH",
@@ -23,6 +26,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio.",
 		category: "Arm Sleeve",
+		reviews: 65,
+		stars: 2.8,
+		stock: 19,
 	},
 	{
 		id: "rec5NBwZ5zCD9nfF0",
@@ -35,6 +41,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio.",
 		category: "Arm Sleeve",
+		reviews: 120,
+		stars: 3.1,
+		stock: 3,
 	},
 	{
 		id: "recd1jIVIEChmiwhe",
@@ -48,6 +57,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio.",
 		category: "Cleats",
 		shipping: true,
+		reviews: 98,
+		stars: 3.8,
+		stock: 91,
 	},
 	{
 		id: "recoM2MyHJGHLVi5l",
@@ -61,6 +73,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio.",
 		category: "Basketball",
 		shipping: false,
+		reviews: 23,
+		stars: 2.3,
+		stock: 0,
 	},
 	{
 		id: "recotY5Nh00DQFdkm",
@@ -74,6 +89,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio.",
 		category: "Basketball",
 		shipping: true,
+		reviews: 79,
+		stars: 1.8,
+		stock: 8,
 	},
 	{
 		id: "rec1Ntk7siEEW9ha1",
@@ -87,6 +105,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Basketball",
 		shipping: false,
+		reviews: 213,
+		stars: 4.9,
+		stock: 37,
 	},
 	{
 		id: "recNZ0koOqEmilmoz",
@@ -101,6 +122,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Cleats",
 		shipping: true,
+		reviews: 193,
+		stars: 3.3,
+		stock: 26,
 	},
 	{
 		id: "recrfxv3EwpvJwvjq",
@@ -115,6 +139,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "T-shirt",
 		shipping: true,
+		reviews: 113,
+		stars: 3.9,
+		stock: 17,
 	},
 	{
 		id: "recoW8ecgjtKx2Sj2",
@@ -127,6 +154,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Soccer Ball",
+		reviews: 71,
+		stars: 2.9,
+		stock: 12,
 	},
 	{
 		id: "recEOA6qtDag1hRbU",
@@ -139,11 +169,14 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "T-shirt",
+		reviews: 513,
+		stars: 5.0,
+		stock: 0,
 	},
 	{
 		id: "recoAJYUCuEKxcPSr",
 		name: "TD Cool Grey",
-		price: 700000,
+		price: 70000,
 		image:
 			"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTS5iJAv7oI2HUONNtpf_6dKYD1BUv_BQS9YMXMwJ30HD-hGm0vpkV_RBOu3Uz75T4aG6B9z6zU-_n6Hk8L48hlRFJR_dXFHWeYzViAMIV7GnXPyPjPBPqd3Q&usqp=CAE",
 		featured: true,
@@ -152,6 +185,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Cleats",
+		reviews: 113,
+		stars: 1.9,
+		stock: 21,
 	},
 	{
 		id: "recQ0fMd8T0Vk211E",
@@ -164,7 +200,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Head Band",
-		shipping: false,
+		reviews: 213,
+		stars: 3.9,
+		stock: 337,
 	},
 	{
 		id: "rec7CjDWKRgNQtrKe",
@@ -177,6 +215,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Arm Sleeve",
+		reviews: 44,
+		stars: 4.2,
+		stock: 0,
 	},
 	{
 		id: "recF0KpwlkF7e8kXO",
@@ -190,6 +231,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Soccer Ball",
 		shipping: true,
+		reviews: 52,
+		stars: 3.3,
+		stock: 137,
 	},
 	{
 		id: "recs5BSVU3qQrOj4E",
@@ -203,6 +247,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Head Band",
 		shipping: true,
+		reviews: 87,
+		stars: 4.2,
+		stock: 2,
 	},
 	{
 		id: "recroK1VD8qVdMP5H",
@@ -215,6 +262,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Cleats",
+		reviews: 73,
+		stars: 2.1,
+		stock: 68,
 	},
 	{
 		id: "rec7JInsuCEHgmaGe",
@@ -228,6 +278,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Track Suit",
+		reviews: 105,
+		stars: 0.7,
+		stock: 184,
 	},
 	{
 		id: "rec3jeKnhInKHJuz2",
@@ -241,6 +294,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "T-shirt",
+		reviews: 8,
+		stars: 3.7,
+		stock: 15,
 	},
 	{
 		id: "recv2ohxljlK2FZO7",
@@ -253,6 +309,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Soccer Ball",
+		reviews: 93,
+		stars: 2.4,
+		stock: 154,
 	},
 	{
 		id: "recJIjREF3dlFi3sR",
@@ -266,6 +325,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Track Suit",
 		shipping: true,
+		reviews: 63,
+		stars: 4.9,
+		stock: 37,
 	},
 	{
 		id: "recm7wC8TBVdU9oEL",
@@ -278,6 +340,9 @@ const items = [
 		description:
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "Head Band",
+		reviews: 4,
+		stars: 0.9,
+		stock: 151,
 	},
 	{
 		id: "rectfNsySwAJeWDN2",
@@ -292,6 +357,9 @@ const items = [
 			"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed et vel modi qui necessitatibus aut numquam maxime delectus laborum, aperiam eius? In, fuga. Vero, saepe minus enim atque qui beatae, voluptas ex minima voluptates quam repudiandae nemo. Quaerat temporibus aspernatur, inventore, officia, ratione tenetur porro deleniti magni dolores cum odio",
 		category: "T-shirt",
 		shipping: true,
+		reviews: 83,
+		stars: 3.3,
+		stock: 28,
 	},
 ];
 

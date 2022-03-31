@@ -15,15 +15,21 @@ const populatePage = (arr) => {
 	console.log(arr);
 	const products = arr
 		.map((product) => {
-			const { image, name, company, category } = product;
+			const { image, name, company, id, category } = product;
 			categories.add(category);
 			companies.add(company);
-			return `<img style = "height:100px; width: 100px;  "src = ${image} alt = ${name} />`;
+			return `<img  onClick = "sendID('${id}')" style = "height:100px; width: 100px;  "src = ${image} alt = ${name} />`;
 		})
 		.join("");
 	container.innerHTML = products;
 	console.log(categories);
 	console.log(companies);
+};
+const sendID = (id) => {
+	console.log(id);
+	const response = fetch(`api/single-product?id=${id}`)
+		.then((data) => data.json())
+		.then((resp) => console.log(resp));
 };
 
 fetchData();
