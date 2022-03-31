@@ -1,5 +1,5 @@
-const items = require("../data/products");
-exports.handler = (event, context) => {
+// const items = require("../data/products");
+exports.handler = async (event, context) => {
 	// const url = event.rawUrl.toString().split("=")[1];
 	// console.log(url);
 	// console.log("request");
